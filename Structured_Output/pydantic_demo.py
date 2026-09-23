@@ -15,6 +15,7 @@ new_student2 = {'age': '32'} #pydantic is smart enough to understand and explici
 student1 = Student(**new_student1)
 
 print(student1)
+print(student1.name)  #to fetch a particular value from object (Obviously)
 
 student1_dict = dict(student1)  #can create dict object using pydantic object
 
